@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I'm Sorry Chikoo ❤️</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg,#ff758c,#ff7eb3,#ffc3a0);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow-x: hidden;
+  color: white;
+}
+
+.card {
+  background: rgba(255,255,255,0.18);
+  padding: 30px 20px;
+  border-radius: 25px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+  backdrop-filter: blur(10px);
+}
+
+h1 {
+  font-size: 35px;
+}
+
+.heart {
+  font-size: 65px;
+  animation: beat 1s infinite;
+}
+
+@keyframes beat {
+  50% { transform: scale(1.3); }
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+button {
+  background: white;
+  color: #ff477e;
+  border: none;
+  padding: 14px 25px;
+  border-radius: 30px;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#message {
+  display: none;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<div class="heart">❤️</div>
+
+<h1>I'm Sorry Chikoo 🥺</h1>
+
+<p>
+Meri pyaari Chikoo ❤️<br>
+Mujhse galti ho gayi.<br>
+Please mujhe maaf kar do.
+</p>
+
+<p>
+Tum meri smile ho,<br>
+meri khushi ho,<br>
+aur meri duniya ho. 💗
+</p>
+
+<button onclick="showLove()">
+Please Forgive Me ❤️
+</button>
+
+<div id="message">
+I LOVE YOU CHIKOO! 🥹❤️<br>
+Please ek baar muskura do! 🌹
+</div>
+
+</div>
+
+<script>
+function showLove() {
+  document.getElementById("message").style.display = "block";
+}
+</script>
+
+</body>
+  </html>
